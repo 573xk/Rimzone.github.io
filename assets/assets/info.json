@@ -1,0 +1,171 @@
+{
+    "button": {
+        "哔哩哔哩": "https://www.bilibili.com/",
+        "豆瓣电影": "https://movie.douban.com/",
+        "矢量图库": "https://www.iconfont.cn/",
+        "OPPO开放平台": "https://open.oppomobile.com/theme/index/#/theme/data/statistics",
+        "百度翻译": "https://fanyi.baidu.com/",
+        "知乎": "https://www.zhihu.com/",
+        "百度贴吧": "https://tieba.baidu.com/",
+        "5438网盘": "http://5438.ys168.com/",
+        "城通网盘": "https://www.ctfile.com/"
+    },
+    "tab": {
+        "通用": {
+            "必应": "https://cn.bing.com/search?q=",
+            "Yandex": "https://yandex.com/search/?text=",
+            "百度": "https://www.baidu.com/s?wd=",
+            "搜狗": "https://www.sogou.com/web?query="
+        },
+        "生活": {
+            "知乎": "https://www.zhihu.com/search?type=content&q=",
+            "哔哩哔哩": "https://search.bilibili.com/all?keyword=",
+            "小红书": "https://www.xiaohongshu.com/search_result?keyword=",
+            "豆瓣": "https://www.douban.com/search?q=",
+            "抖音": "https://www.douyin.com/search/"
+        },
+        "破解软件": {
+            "果核剥壳": "https://www.ghxi.com/?s=",
+            "异星": "https://www.yxssp.com/?s=",
+            "蓝鲨": "https://www.lan-sha.com/?s=",
+            "绿软部落": "https://www.ludown.com/?s=",
+            "423Down": "https://www.423down.com/?s=",
+            "小刀娱乐网": "https://xd.x6d.com/daowangsousuo?q=",
+            "小众软件": "https://www.appinn.com/?s=",
+            "系统迷": "https://www.xitmi.com/?s=",
+            "分享迷": "https://www.fenxm.com/search.php?q=",
+            "吾爱破解": "https://cn.bing.com/search?q=site%3A52pojie.cn%20"
+        },
+        "在线影视": {
+            "搜片": "https://soupian.pro/search?key=",
+            "电影狗": "https://www.dianyinggou.com/so/",
+            "追影猫": "https://zhuiyingmao2.com/vodsearch/-------------.html?wd=",
+            "低端影视": "https://ddys.pro/?s=",
+            "555电影": "https://555yy.site/vodsearch/-------------.html?wd=",
+            "麻衣呀呼": "https://www.huanyuxing.com/c.html?wd=",
+            "海兔影院": "https://www.haituu.tv/vod/search.html?wd="
+        },
+        "网盘搜索": {
+            "UP云搜": "https://www.upyunso.com/search.html?page=1&keyword=",
+            "猫狸盘搜": "https://www.alipansou.com/search?k=",
+            "奈斯搜索": "https://www.niceso.net/search/?q=",
+            "小纸条": "https://ali.gitcafe.ink/#",
+            "小云搜索": "https://www.yunso.net/index/user/s?wd="
+        },
+        "无版权图片": {
+            "Pexels": "https://www.pexels.com/zh-cn/search/",
+            "Unsplash": "https://unsplash.com/s/photos/"
+        },
+        "地图": {
+            "百度地图": "https://map.baidu.com/search/",
+            "高德地图": "https://www.amap.com/search?query="
+        },
+        "磁力": {
+            "无极磁力": "https://cili404.com/#",
+            "磁力猫": "https://xn--yets15cv4k.com/#",
+            "SkrBT": "https://iskrbt.top/#"
+        },
+        "购物": {
+            "淘宝": "https://s.taobao.com/search?commend=all&ie=utf8&initiative_id=tbindexz_20170306&q=",
+            "京东": "https://search.jd.com/Search?keyword="
+        },
+        "电子书": {
+            "熊猫搜书": "https://www.mrsd.top/search.html?keywords=",
+            "无名图书": "https://www.book123.info/#",
+            "鸠摩搜书": "https://www.jiumodiary.com/#",
+            "热点图书网": "http://www.happydot.top/?s=",
+            "Libgen": "https://libgen.vg/index.php?req="
+        }
+    },
+    "card": {
+        "分类1": {
+            "测试卡片按钮1测试卡片按钮1测试卡片按钮1测试卡片按钮1": {
+                "describtion": "111是个什么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": "哔嘀影视.png"
+            },
+            "测试卡片按钮2测试卡片按钮2测试卡片按钮2测试卡片按钮2测试卡片按钮2": {
+                "describtion": "222是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": "360官网.png"
+            },
+            "测试卡片按钮3": {
+                "describtion": "333是个什么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮4": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮5": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮6": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮7": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮8": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            }
+        },
+        "分类2": {
+            "测试卡片按钮9": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮10": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮11": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮12": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮13": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮14": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮15": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮16": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            },
+            "测试卡片按钮17": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/",
+                "icon": ""
+            }
+        }
+    }
+}

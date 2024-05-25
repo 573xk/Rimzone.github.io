@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -24,15 +23,14 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="rmc_web">
+  <meta name="apple-mobile-web-app-title" content="ttt">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>关键词查找器（hhy定制版）</title>
+  <title>Rim导航</title>
   <link rel="manifest" href="manifest.json">
-
 
   <style>
     html {
@@ -41,58 +39,58 @@
   </style>
 
   <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2652845433";
+    <!-- The value below is injected by flutter build -->
+    { { flutter_service_worker_version } }
   </script>
 
 
 
-<script>
-function detectBrowser() {
-  var userAgent = navigator.userAgent.toLowerCase();
-  var browser, version;
+  <script>
+    function detectBrowser() {
+      var userAgent = navigator.userAgent.toLowerCase();
+      var browser, version;
 
-  // 检测IE浏览器
-  if (userAgent.indexOf('msie') !== -1 || userAgent.indexOf('trident') !== -1) {
-    if (userAgent.indexOf('msie') !== -1) {
-      version = parseInt(userAgent.match(/msie (\d+)/)[1], 10);
-    } else {
-      version = parseInt(userAgent.match(/rv:(\d+\.\d+)/)[1], 10);
+      // 检测IE浏览器
+      if (userAgent.indexOf('msie') !== -1 || userAgent.indexOf('trident') !== -1) {
+        if (userAgent.indexOf('msie') !== -1) {
+          version = parseInt(userAgent.match(/msie (\d+)/)[1], 10);
+        } else {
+          version = parseInt(userAgent.match(/rv:(\d+\.\d+)/)[1], 10);
+        }
+        browser = 'IE' + version;
+      } else {
+        // 检测非IE浏览器
+        if (userAgent.indexOf('edge') > -1) {
+          version = parseInt(userAgent.match(/edge\/(\d+)/)[1], 10);
+          browser = 'Edge ' + version;
+        } else if (userAgent.indexOf('chrome') > -1) {
+          version = parseInt(userAgent.match(/chrome\/(\d+)/)[1], 10);
+          browser = 'Chrome ' + version;
+        } else if (userAgent.indexOf('safari') > -1) {
+          version = parseInt(userAgent.match(/version\/(\d+)/)[1], 10);
+          browser = 'Safari ' + version;
+        } else if (userAgent.indexOf('firefox') > -1) {
+          version = parseInt(userAgent.match(/firefox\/(\d+)/)[1], 10);
+          browser = 'Firefox ' + version;
+        } else {
+          browser = '未知浏览器';
+        }
+      }
+
+      // 显示浏览器内核版本信息
+      document.getElementById('browserInfo').innerText = browser;
     }
-    browser = 'IE' + version;
-  } else {
-    // 检测非IE浏览器
-    if (userAgent.indexOf('edge') > -1) {
-      version = parseInt(userAgent.match(/edge\/(\d+)/)[1], 10);
-      browser = 'Edge ' + version;
-    } else if (userAgent.indexOf('chrome') > -1) {
-      version = parseInt(userAgent.match(/chrome\/(\d+)/)[1], 10);
-      browser = 'Chrome ' + version;
-    } else if (userAgent.indexOf('safari') > -1) {
-      version = parseInt(userAgent.match(/version\/(\d+)/)[1], 10);
-      browser = 'Safari ' + version;
-    } else if (userAgent.indexOf('firefox') > -1) {
-      version = parseInt(userAgent.match(/firefox\/(\d+)/)[1], 10);
-      browser = 'Firefox ' + version;
-    } else {
-      browser = '未知浏览器';
-    }
-  }
 
-  // 显示浏览器内核版本信息
-  document.getElementById('browserInfo').innerText = browser;
-}
-
-// 确保页面加载完成后再执行检测
-window.onload = detectBrowser;
-</script>
+    // 确保页面加载完成后再执行检测
+    window.onload = detectBrowser;
+  </script>
 
 
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
- <script src="js/browser-image-compression.js" type="application/javascript"></script>
-<link  href="js/cropper.css" rel="stylesheet">
-<script src="js/cropper.js"></script>
+  <script src="js/browser-image-compression.js" type="application/javascript"></script>
+  <link href="js/cropper.css" rel="stylesheet">
+  <script src="js/cropper.js"></script>
 
   <style>
     body {
@@ -137,40 +135,38 @@ window.onload = detectBrowser;
       display: inline-block;
     }
   </style>
-</head>
 
+
+
+</head>
 <body>
+  <script src="flutter_bootstrap.js" async></script>
+  
   <div class="container">
     <div id="loading-animation" class="loading-container"></div>
     <div id="browserInfo" class="tip"></div>
-<div id="loading-text" class="tip">加载中...</div>
+    <div id="loading-text" class="tip">加载中...</div>
   </div>
 
   <script>
     window.addEventListener('load', function (ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
+      _flutter.loader.load({
         serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
+          serviceWorkerVersion: '"359876752"',
         },
-        onEntrypointLoaded: function (engineInitializer) {
-          engineInitializer.initializeEngine().then(function (appRunner) {
+      }).then((engine) => {
+        engine.runWithEntrypoint({
+          onEntrypointLoaded: function (appRunner) {
             appRunner.runApp().then(function () {
               // 当文档加载完成后执行函数
               document.getElementById('loading-animation').style.display = 'none';
               document.getElementById('loading-text').style.display = 'none';
               document.getElementById('browserInfo').style.display = 'none';
             });
-          });
-
-
-        }
-
+          }
+        });
       });
     });
   </script>
-
-
 </body>
-
 </html>

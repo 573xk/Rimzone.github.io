@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -27,7 +28,7 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>Rim导航</title>
   <link rel="manifest" href="manifest.json">
@@ -37,12 +38,6 @@
       font-size: 16px;
     }
   </style>
-
-  <script>
-    <!-- The value below is injected by flutter build -->
-    { { flutter_service_worker_version } }
-  </script>
-
 
 
   <script>
@@ -87,10 +82,7 @@
 
 
   <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
   <script src="js/browser-image-compression.js" type="application/javascript"></script>
-  <link href="js/cropper.css" rel="stylesheet">
-  <script src="js/cropper.js"></script>
 
   <style>
     body {
@@ -139,9 +131,10 @@
 
 
 </head>
+
 <body>
   <script src="flutter_bootstrap.js" async></script>
-  
+
   <div class="container">
     <div id="loading-animation" class="loading-container"></div>
     <div id="browserInfo" class="tip"></div>
@@ -149,24 +142,12 @@
   </div>
 
   <script>
-    window.addEventListener('load', function (ev) {
-      _flutter.loader.load({
-        serviceWorker: {
-          serviceWorkerVersion: '"3715349583"',
-        },
-      }).then((engine) => {
-        engine.runWithEntrypoint({
-          onEntrypointLoaded: function (appRunner) {
-            appRunner.runApp().then(function () {
-              // 当文档加载完成后执行函数
-              document.getElementById('loading-animation').style.display = 'none';
-              document.getElementById('loading-text').style.display = 'none';
-              document.getElementById('browserInfo').style.display = 'none';
-            });
-          }
-        });
-      });
-    });
+    function hideElement() {
+      document.getElementById('loading-animation').style.display = 'none';
+      document.getElementById('loading-text').style.display = 'none';
+      document.getElementById('browserInfo').style.display = 'none';
+    }
   </script>
 </body>
+
 </html>

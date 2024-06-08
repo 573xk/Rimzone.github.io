@@ -15,7 +15,8 @@
             "必应": "https://cn.bing.com/search?q=",
             "Yandex": "https://yandex.com/search/?text=",
             "百度": "https://www.baidu.com/s?wd=",
-            "搜狗": "https://www.sogou.com/web?query="
+            "搜狗": "https://www.sogou.com/web?query=",
+            "微软翻译": "https://cn.bing.com/translator?ref=TThis&text=|||&from=zh-Hans&to=en"
         },
         "生活": {
             "知乎": "https://www.zhihu.com/search?type=content&q=",
@@ -23,18 +24,6 @@
             "小红书": "https://www.xiaohongshu.com/search_result?keyword=",
             "豆瓣": "https://www.douban.com/search?q=",
             "抖音": "https://www.douyin.com/search/"
-        },
-        "破解软件": {
-            "果核剥壳": "https://www.ghxi.com/?s=",
-            "异星": "https://www.yxssp.com/?s=",
-            "蓝鲨": "https://www.lan-sha.com/?s=",
-            "绿软部落": "https://www.ludown.com/?s=",
-            "423Down": "https://www.423down.com/?s=",
-            "小刀娱乐网": "https://xd.x6d.com/daowangsousuo?q=",
-            "小众软件": "https://www.appinn.com/?s=",
-            "系统迷": "https://www.xitmi.com/?s=",
-            "分享迷": "https://www.fenxm.com/search.php?q=",
-            "吾爱破解": "https://cn.bing.com/search?q=site%3A52pojie.cn%20"
         },
         "在线影视": {
             "搜片": "https://soupian.pro/search?key=",
@@ -79,174 +68,121 @@
     },
     "card": {
         "网盘搜索": {
-            "测试卡片按钮1测试卡片按钮1测试卡片按钮1测试卡片按钮1": {
-                "describtion": "111是个什么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": "哔嘀影视.png"
+            "小纸条": {
+                "describtion": "很干净的阿里云盘资源站，资源较多",
+                "link": "https://ali.gitcafe.ink"
             },
-            "测试卡片按钮2测试卡片按钮2测试卡片按钮2测试卡片按钮2测试卡片按钮2": {
-                "describtion": "222是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": "360官网.png"
+            "小云搜索": {
+                "describtion": "多种网盘资源聚合搜索站，资源数量较多",
+                "link": "https://www.yunso.net"
             },
-            "测试卡片按钮3": {
-                "describtion": "333是个什么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片按钮4": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片按钮5": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片按钮6": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片按钮7": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片按钮8": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "猫狸盘搜": {
+                "describtion": "多种网盘资源搜索站，资源数量还可以",
+                "link": "https://www.alipansou.com"
             }
         },
         "在线影视": {
-            "测试卡片按钮9": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "剧圈圈": {
+                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建源",
+                "link": "https://link3.cc/jqqzx"
             },
-            "测试卡片按钮10": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "耐看点播": {
+                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                "link": "https://nkvlog.us"
             },
-            "测试卡片按钮11": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "厂长资源": {
+                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                "link": "https://www.czzy.site"
             },
-            "测试卡片按钮12": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "哔嘀影视": {
+                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                "link": "https://www.bdys.me"
             },
-            "测试卡片按钮13": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "注视影视": {
+                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                "link": "https://gaze.run"
             },
-            "测试卡片按钮14": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "LIBVIO": {
+                "describtion": "在线影视网站，国外资源为主少量国内资源，大部分可在线，小部分是网盘链接，清晰度很高，自建线路",
+                "link": "https://iioo.me"
             },
-            "测试卡片按钮15": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "低端影视": {
+                "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
+                "link": "https://ddys.info"
             },
-            "测试卡片按钮16": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "NO视频": {
+                "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
+                "link": "https://www.novipnoad.net"
             },
-            "测试卡片按钮17": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+            "HDmoli": {
+                "describtion": "在线影视网站，只有国外资源，清晰度很高，线路应该是低端影视的",
+                "link": "https://www.hdmoli.com"
             }
         },
         "免费音乐": {
-            "分类3": {
+            "未添加": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片分类3": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片分类31": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡分类32": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试分类3": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.bilibili.com/"
             }
         },
         "破解软件": {
-            "分类3": {
+            "果核剥壳": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.ghxi.com"
             },
-            "测试卡片分类3": {
+            "异星": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.lan-sha.com"
             },
-            "测试卡片分类31": {
+            "蓝鲨": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.bilibili.com"
             },
-            "测试卡分类32": {
+            "绿软部落": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.ludown.com"
             },
-            "测试分类3": {
+            "423Down": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.423xz.com"
+            },
+            "小刀娱乐网": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://xd.x6d.com"
+            },
+            "小众软件": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.appinn.com"
+            },
+            "系统迷": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.xitmi.com"
+            },
+            "分享迷": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.fenxm.com"
+            },
+            "吾爱破解": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.52pojie.cn"
             }
         },
         "磁力搜索": {
-            "分类3": {
+            "未添加": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片分类3": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡片分类31": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试卡分类32": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
-            },
-            "测试分类3": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/",
-                "icon": ""
+                "link": "https://www.bilibili.com/"
             }
         }
+    },
+    "exception": {
+        "剧圈圈": "https://www.jqqzx.cc",
+        "耐看点播": "https://nkvod.com",
+        "厂长资源": "https://www.czys.top",
+        "哔嘀影视": "https://www.yjys01.com",
+        "注视影视": "https://gaze.run",
+        "LIBVIO": "https://www.libvio.cc",
+        "低端影视": "https://ddys.mov",
+        "NO视频": "https://www.novipnoad.net",
+        "HDmoli": "https://www.hdmoli.pro"
     }
 }

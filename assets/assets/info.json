@@ -11,59 +11,22 @@
         "城通网盘": "https://www.ctfile.com/"
     },
     "tab": {
-        "通用": {
+        "搜索": {
             "必应": "https://cn.bing.com/search?q=",
-            "Yandex": "https://yandex.com/search/?text=",
-            "百度": "https://www.baidu.com/s?wd=",
-            "搜狗": "https://www.sogou.com/web?query=",
+            "秘塔AI": "https://metaso.cn/?q=",
+            "360AI": "https://so.360.com/search?q=",
+            "百度": "https://www.baidu.com/s?wd="
+        },
+        "翻译": {
+            "金山词霸": "https://www.iciba.com/word?w=",
             "微软翻译": "https://cn.bing.com/translator?ref=TThis&text=|||&from=zh-Hans&to=en"
         },
-        "生活": {
-            "知乎": "https://www.zhihu.com/search?type=content&q=",
-            "哔哩哔哩": "https://search.bilibili.com/all?keyword=",
-            "小红书": "https://www.xiaohongshu.com/search_result?keyword=",
-            "豆瓣": "https://www.douban.com/search?q=",
-            "抖音": "https://www.douyin.com/search/"
-        },
-        "在线影视": {
-            "搜片": "https://soupian.pro/search?key=",
-            "电影狗": "https://www.dianyinggou.com/so/",
-            "追影猫": "https://zhuiyingmao2.com/vodsearch/-------------.html?wd=",
-            "低端影视": "https://ddys.pro/?s=",
-            "555电影": "https://555yy.site/vodsearch/-------------.html?wd=",
-            "麻衣呀呼": "https://www.huanyuxing.com/c.html?wd=",
-            "海兔影院": "https://www.haituu.tv/vod/search.html?wd="
-        },
-        "网盘搜索": {
-            "UP云搜": "https://www.upyunso.com/search.html?page=1&keyword=",
-            "猫狸盘搜": "https://www.alipansou.com/search?k=",
-            "奈斯搜索": "https://www.niceso.net/search/?q=",
-            "小纸条": "https://ali.gitcafe.ink/#",
-            "小云搜索": "https://www.yunso.net/index/user/s?wd="
-        },
-        "无版权图片": {
-            "Pexels": "https://www.pexels.com/zh-cn/search/",
-            "Unsplash": "https://unsplash.com/s/photos/"
+        "百科": {
+            "百度百科": "https://baike.baidu.com/item/"
         },
         "地图": {
             "百度地图": "https://map.baidu.com/search/",
             "高德地图": "https://www.amap.com/search?query="
-        },
-        "磁力": {
-            "无极磁力": "https://cili404.com/#",
-            "磁力猫": "https://xn--yets15cv4k.com/#",
-            "SkrBT": "https://iskrbt.top/#"
-        },
-        "购物": {
-            "淘宝": "https://s.taobao.com/search?commend=all&ie=utf8&initiative_id=tbindexz_20170306&q=",
-            "京东": "https://search.jd.com/Search?keyword="
-        },
-        "电子书": {
-            "熊猫搜书": "https://www.mrsd.top/search.html?keywords=",
-            "无名图书": "https://www.book123.info/#",
-            "鸠摩搜书": "https://www.jiumodiary.com/#",
-            "热点图书网": "http://www.happydot.top/?s=",
-            "Libgen": "https://libgen.vg/index.php?req="
         }
     },
     "card": {

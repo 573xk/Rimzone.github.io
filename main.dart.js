@@ -101729,7 +101729,10 @@ return A.I($async$wH,r)},
 pG(a,b,c,d,e){var s=null,r=J.d(this.y.gl(0),d)?c:B.l,q=A.eB(15)
 return A.o8(B.a5,s,A.bz(s,new A.Qd(A.ec(A.a([a,b],t.D),B.Q,B.er,B.K),new A.ax(0,0,0,0),e,B.l,s),B.n,s,s,new A.cM(r,s,s,q,s,s,B.aK),s,s,s,s,new A.ax(5,0,5,0),s,s,s),B.n,B.l,0,s,s,s,s,s,B.dL)},
 a_(a){var s,r=this,q=t.l,p=A.DT(A.bO(a,null,q).w.a.a),o=A.DT(A.bO(a,null,q).w.a.b)
-if($.aqz)r.x.sl(0,r.w.gl(0)*-1)
+q=p.gl(0)<960||$.aqz
+s=r.x
+if(q)s.sl(0,r.w.gl(0)*-1)
+else s.sl(0,0)
 q=r.z
 A.cq(q.gl(0))
 s=new A.axq(r,p)
@@ -101827,7 +101830,7 @@ k=k.gl(0)
 i=n.x.gl(0)
 r=A.bH(0,700,0)
 q=A.eB(24)
-return A.hw(B.bk,A.a([m,new A.e1(B.dc,o,o,l,o),A.Ky(o,A.bK(A.ec(A.a([A.bz(B.M,A.em(A.a([n.pG(A.hk(B.O8,o,o),A.bW("\u8df3\u8f6c\u9876\u90e8",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),0,new A.axg(n)),n.pG(A.hk(B.O1,o,o),A.bW("\u7f51\u76d8\u641c\u7d22",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),1,new A.axh(n)),n.pG(A.hk(B.O3,o,o),A.bW("\u5728\u7ebf\u5f71\u89c6",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),2,new A.axi(n)),n.pG(A.hk(B.O4,o,o),A.bW("\u514d\u8d39\u97f3\u4e50",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),3,new A.axj(n)),n.pG(A.hk(B.O9,o,o),A.bW("\u7834\u89e3\u8f6f\u4ef6",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),4,new A.axk(n)),n.pG(A.hk(B.O6,o,o),A.bW("\u78c1\u529b\u641c\u7d22",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),5,new A.axl(n)),n.pG(A.hk(B.O7,o,o),A.bW("\u8df3\u8f6c\u5e95\u90e8",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),6,new A.axm(n))],j),B.Q,B.er,B.K),B.n,o,o,new A.cM(B.j,o,o,q,o,o,B.aK),o,400,o,new A.ax(20,0,0,0),new A.ax(10,0,10,0),o,o,140)],j),B.Q,B.as,B.K),o,160),B.hz,r,k,i,o,o,o)],j),B.G,B.bx)},
+return A.hw(B.bk,A.a([m,new A.e1(B.dc,o,o,l,o),A.Ky(o,A.bK(A.ec(A.a([A.bz(B.M,A.em(A.a([n.pG(A.hk(B.O8,o,o),A.bW("\u8df3\u8f6c\u9876\u90e8",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),0,new A.axg(n)),n.pG(A.hk(B.O1,o,o),A.bW("\u7f51\u76d8\u641c\u7d22",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),1,new A.axh(n)),n.pG(A.hk(B.O3,o,o),A.bW("\u5728\u7ebf\u5f71\u89c6",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),2,new A.axi(n)),n.pG(A.hk(B.O4,o,o),A.bW("\u514d\u8d39\u97f3\u4e50",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),3,new A.axj(n)),n.pG(A.hk(B.O9,o,o),A.bW("\u7834\u89e3\u8f6f\u4ef6",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),4,new A.axk(n)),n.pG(A.hk(B.O6,o,o),A.bW("\u78c1\u529b\u641c\u7d22",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),5,new A.axl(n)),n.pG(A.hk(B.O7,o,o),A.bW("\u8df3\u8f6c\u5e95\u90e8",o,o,o,o,o,o,o),A.lQ(0,0,0,0.05),6,new A.axm(n))],j),B.Q,B.er,B.K),B.n,o,o,new A.cM(B.j,o,o,q,o,o,B.aK),o,500,o,new A.ax(20,0,0,0),new A.ax(10,10,10,10),o,o,140)],j),B.Q,B.as,B.K),o,160),B.hz,r,k,i,o,o,o)],j),B.G,B.bx)},
 $S:555}
 A.axe.prototype={
 $1(a){var s=this.a,r=s.f

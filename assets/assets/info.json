@@ -30,20 +30,6 @@
         }
     },
     "card": {
-        "网盘搜索": {
-            "小纸条": {
-                "describtion": "很干净的阿里云盘资源站，资源较多",
-                "link": "https://ali.gitcafe.ink"
-            },
-            "小云搜索": {
-                "describtion": "多种网盘资源聚合搜索站，资源数量较多",
-                "link": "https://www.yunso.net"
-            },
-            "猫狸盘搜": {
-                "describtion": "多种网盘资源搜索站，资源数量还可以",
-                "link": "https://www.alipansou.com"
-            }
-        },
         "在线影视": {
             "剧圈圈": {
                 "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建源",
@@ -82,52 +68,93 @@
                 "link": "https://www.hdmoli.com"
             }
         },
-        "免费音乐": {
-            "未添加": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/"
+        "网盘搜索": {
+            "小纸条": {
+                "describtion": "很干净的阿里云盘资源站，资源较多",
+                "link": "https://ali.gitcafe.ink"
+            },
+            "小云搜索": {
+                "describtion": "多种网盘资源聚合搜索站，资源数量较多",
+                "link": "https://www.yunso.net"
+            },
+            "猫狸盘搜": {
+                "describtion": "多种网盘资源搜索站，资源数量还可以",
+                "link": "https://www.alipansou.com"
+            }
+        },
+        "高清壁纸": {
+            "极简壁纸": {
+                "describtion": "高清，资源较多，国内网站",
+                "link": "https://bz.zzzmh.cn"
+            },
+            "花瓣网": {
+                "describtion": "用户分享图片的网站，海量资源，设计素材、壁纸都有，国内网站",
+                "link": "https://huaban.com"
+            },
+            "堆糖": {
+                "describtion": "用户分享图片的网站，海量资源，壁纸类型大多是可爱类型，偏女性化，国内网站",
+                "link": "https://www.duitang.com"
+            },
+            "10Wallpaper": {
+                "describtion": "高清，海量资源，国外网站，可选中文页面",
+                "link": "https://10wallpaper.com/cn/"
+            },
+            "AlphaCoders": {
+                "describtion": "高清，资源数量很多，国外网站",
+                "link": "https://alphacoders.com"
+            }
+            ,
+            "Unsplash": {
+                "describtion": "无版权，可商用，高清，摄影图片为主，海量资源，国外网站",
+                "link": "https://unsplash.com"
             }
         },
         "破解软件": {
             "果核剥壳": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，免费好用，内容经常更新",
                 "link": "https://www.ghxi.com"
             },
-            "异星": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.lan-sha.com"
+            "异星软件空间": {
+                "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                "link": "https://www.yxssp.com/"
             },
-            "蓝鲨": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com"
+            "蓝鲨应用库": {
+                "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                "link": "https://www.lsapk.com/"
             },
             "绿软部落": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，免费好用，内容经常更新",
                 "link": "https://www.ludown.com"
             },
             "423Down": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
                 "link": "https://www.423xz.com"
             },
             "小刀娱乐网": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
                 "link": "https://xd.x6d.com"
             },
             "小众软件": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，免费好用，内容经常更新",
                 "link": "https://www.appinn.com"
             },
             "系统迷": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，包含教程和资讯，内容经常更新",
                 "link": "https://www.xitmi.com"
             },
             "分享迷": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "绿色软件分享站，电视电脑软件都有，内容经常更新",
                 "link": "https://www.fenxm.com"
             },
             "吾爱破解": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "describtion": "技术交流论坛，有很多人发布绿色好用软件",
                 "link": "https://www.52pojie.cn"
+            }
+        },
+        "免费音乐": {
+            "未添加": {
+                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
+                "link": "https://www.bilibili.com/"
             }
         },
         "磁力搜索": {

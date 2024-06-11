@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "ac3b1f17d91f07d74c262d5fede3dc87",
-"assets/AssetManifest.bin.json": "beca2dada92637f2f77ec3aa8957eb7f",
-"assets/AssetManifest.json": "c51a2cc8654f91d43709b339b3dcc439",
+const RESOURCES = {"assets/AssetManifest.bin": "83e68ba0c0966b1cbc1eb894d9e739e6",
+"assets/AssetManifest.bin.json": "854fb9a26e9ac66042aae387d4d6b09a",
+"assets/AssetManifest.json": "566c0788dde1026ac5a5baf4a7ad5547",
 "assets/assets/favicon/10wallpaper.com.png": "86c50b5dd245d92f3fc546eecb0c221a",
 "assets/assets/favicon/ali.gitcafe.ink.png": "3b75997ceb9344e15f2c68db6577c9f9",
 "assets/assets/favicon/alphacoders.com.png": "a93b3334c3bf918e81fe13c97eec8c0f",
@@ -35,14 +35,13 @@ const RESOURCES = {"assets/AssetManifest.bin": "ac3b1f17d91f07d74c262d5fede3dc87
 "assets/assets/favicon/www.yunso.net.png": "842c5ce0ed402c13246028e4e3f762c4",
 "assets/assets/favicon/www.yxssp.com.png": "e9b3d1faee494d40927e7ce41df5d1bd",
 "assets/assets/favicon/xd.x6d.com.png": "db123ed6be4d2ac66e3297f2893d6cb7",
-"assets/assets/fonts/MiSans-Bold.ttf": "1a33ce0a0be45ff3c6036fa1b18cae60",
 "assets/assets/fonts/MiSans-Regular.ttf": "5037e3ec0d9db9a6557a4a38daf1af99",
 "assets/assets/fonts/Roboto-Regular.ttf": "ddd89d64e8ab39e63a33c61d54b2a05e",
-"assets/assets/info.json": "96f6536b4e7a51dfced588a6a1b1ec05",
+"assets/assets/info.json": "97e1e7a458bbc712a5d5fdeb5de08db4",
 "assets/assets/keywords.json": "0a610a840704b974d2863f7269f0b8b1",
 "assets/assets/qr_code.png": "b33d1ea052c09b2bd22676991951e7e6",
 "assets/assets/win10_pattern.png": "6fbb6b74068c7e250c48c3787320d18a",
-"assets/FontManifest.json": "5270119367cce24dbfe46ce4095c5cf7",
+"assets/FontManifest.json": "0de6d1703f6881d6c31da8a1a41015da",
 "assets/fonts/MaterialIcons-Regular.otf": "ac6122a44c5843e033bd99bcb82bc4e3",
 "assets/NOTICES": "4ff271caa435ea8786fdfae97ef7c0cb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
@@ -60,7 +59,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ac3b1f17d91f07d74c262d5fede3dc87
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "0a2a0c383e5d7895920a89a79c3e1301",
+"flutter_bootstrap.js": "67dbb6fb58fd1c89932e97aac81d5228",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -68,7 +67,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ac3b1f17d91f07d74c262d5fede3dc87
 "index.html": "02c6392f4c266690cc45d481931deb93",
 "/": "02c6392f4c266690cc45d481931deb93",
 "js/browser-image-compression.js": "683225547c8e0eee2cddc62ab0752269",
-"main.dart.js": "89e6cc2ae1bcecea52a7bab8d35fa039",
+"main.dart.js": "496e96023d33563590ae36063054d85a",
 "manifest.json": "700db6c55f0da0b0f1e4078bcbc01725",
 "version.json": "b57556c70926465213ecf28c3ff3304b"};
 // The application shell files that are downloaded before a service worker can

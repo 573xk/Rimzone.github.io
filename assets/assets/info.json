@@ -1,11 +1,8 @@
 {
     "button": {
         "Rim自制": "/rim",
-        "哔哩哔哩": "https://www.bilibili.com/",
-        "豆瓣电影": "https://movie.douban.com/",
         "矢量图库": "https://www.iconfont.cn/",
         "OPPO开放平台": "https://open.oppomobile.com/theme/index/#/theme/data/statistics",
-        "百度翻译": "https://fanyi.baidu.com/",
         "百度贴吧": "https://tieba.baidu.com/",
         "5438网盘": "http://5438.ys168.com/",
         "城通网盘": "https://www.ctfile.com/"
@@ -15,7 +12,19 @@
             "必应": "https://cn.bing.com/search?q=",
             "秘塔AI": "https://metaso.cn/?q=",
             "360AI": "https://so.360.com/search?q=",
-            "百度": "https://www.baidu.com/s?wd="
+            "百度": "https://www.baidu.com/s?wd=",
+            "知乎": "https://www.zhihu.com/search?type=content&q=",
+            "豆瓣": "https://www.douban.com/search?q="
+        },
+        "视频": {
+            "哔哩哔哩": "https://search.bilibili.com/video?keyword=",
+            "虎牙": "https://www.huya.com/search?hsk=",
+            "斗鱼": "https://www.douyu.com/search?kw=",
+            "抖音": "https://www.douyin.com/search/"
+        },
+        "音乐试听": {
+            "歌曲宝": "https://www.gequbao.com/s/",
+            "哔哩哔哩音乐": "https://search.bilibili.com/all?keyword=|||&tids=3"
         },
         "翻译": {
             "金山词霸": "https://www.iciba.com/word?w=",
@@ -23,6 +32,12 @@
         },
         "百科": {
             "百度百科": "https://baike.baidu.com/item/"
+        },
+        "影视下载": {
+            "不太灵": "https://www.7bt0.com/search.php?sb=",
+            "音范丝": "https://www.yinfans.me/?s=",
+            "电影港": "https://cn.bing.com/search?q=||| site:www.dygangs.net",
+            "片源网": "https://www.z2pyw.com/search/"
         },
         "地图": {
             "百度地图": "https://map.baidu.com/search/",
@@ -102,8 +117,7 @@
             "AlphaCoders": {
                 "describtion": "高清，资源数量很多，国外网站",
                 "link": "https://alphacoders.com"
-            }
-            ,
+            },
             "Unsplash": {
                 "describtion": "无版权，可商用，高清，摄影图片为主，海量资源，国外网站",
                 "link": "https://unsplash.com"

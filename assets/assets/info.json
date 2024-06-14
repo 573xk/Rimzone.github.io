@@ -165,16 +165,26 @@
                 "link": "https://www.52pojie.cn"
             }
         },
+        "在线工具": {
+            "Rim图片压缩": {
+                "describtion": "RimZone自制工具，可以压缩图片到指定kb值或尺寸值",
+                "link": "/rim/imagecompressiontool"
+            },
+            "Rim关键词查找器": {
+                "describtion": "RimZone自制工具，可以在段落中同时搜索多个关键词",
+                "link": "/rim/keywordsearchtool"
+            }
+        },
         "免费音乐": {
             "未添加": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/"
+                "link": "default"
             }
         },
         "磁力搜索": {
             "未添加": {
                 "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "https://www.bilibili.com/"
+                "link": "default"
             }
         }
     },

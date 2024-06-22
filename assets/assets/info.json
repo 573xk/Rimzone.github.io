@@ -165,7 +165,11 @@
                 "link": "https://www.52pojie.cn"
             }
         },
-        "在线工具": {
+        "自制工具": {
+            "Rim红警2助手": {
+                "describtion": "RimZone自制红警2工具，可一键解决红警几乎所有常见问题",
+                "link": "/rim/rimra2assistant"
+            },
             "Rim图片压缩": {
                 "describtion": "RimZone自制工具，可以压缩图片到指定kb值或尺寸值",
                 "link": "/rim/imagecompressiontool"

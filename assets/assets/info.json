@@ -23,8 +23,9 @@
             "抖音": "https://www.douyin.com/search/"
         },
         "音乐试听": {
-            "歌曲宝": "https://www.gequbao.com/s/",
-            "哔哩哔哩音乐": "https://search.bilibili.com/all?keyword=|||&tids=3"
+            "哔哩哔哩音乐": "https://search.bilibili.com/all?keyword=|||&tids=3",
+            "TuneFree": "https://pt.sayqz.com/?ref=yinghe.xyz#/search/songs?keywords=",
+            "歌曲宝": "https://www.gequbao.com/s/"
         },
         "翻译": {
             "金山词霸": "https://www.iciba.com/word?w=",
@@ -45,215 +46,284 @@
         }
     },
     "card": {
-        "在线影视": {
-            "剧圈圈": {
-                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建源",
-                "link": "https://link3.cc/jqqzx",
-                "icon": "link3.cc.png"
-            },
-            "耐看点播": {
-                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
-                "link": "https://nkvlog.us",
-                "icon": "nkvlog.png"
-            },
-            "厂长资源": {
-                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
-                "link": "https://www.czzy.site",
-                "icon": "www.czzy.site.png"
-            },
-            "哔嘀影视": {
-                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
-                "link": "https://www.bdys.me",
-                "icon": "www.bdys.me.png"
-            },
-            "注视影视": {
-                "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
-                "link": "https://gaze.run",
-                "icon": "gaze.run.png"
-            },
-            "LIBVIO": {
-                "describtion": "在线影视网站，国外资源为主少量国内资源，大部分可在线，小部分是网盘链接，清晰度很高，自建线路",
-                "link": "https://iioo.me",
-                "icon": "iioo.me.png"
-            },
-            "低端影视": {
-                "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
-                "link": "https://ddys.info",
-                "icon": "ddys.info.png"
-            },
-            "NO视频": {
-                "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
-                "link": "https://www.novipnoad.net",
-                "icon": "www.novipnoad.net.png"
-            },
-            "HDmoli": {
-                "describtion": "在线影视网站，只有国外资源，清晰度很高，线路应该是低端影视的",
-                "link": "https://www.hdmoli.com",
-                "icon": "www.hdmoli.com.png"
+        "常用网站": {
+            "常用网站": {
+                "哔哩哔哩": {
+                    "describtion": "国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主，大家可以在这里找到许多欢乐",
+                    "link": "https://www.bilibili.com/",
+                    "icon": "www.bilibili.com.png"
+                },
+                "知乎": {
+                    "describtion": "中文互联网上的高质量的问答社区，创作者聚集的原创内容平台",
+                    "link": "https://www.zhihu.com/",
+                    "icon": "www.zhihu.com.png"
+                },
+                "百度贴吧": {
+                    "describtion": "全球领先的中文社区，让志同道合的人相聚，分享兴趣，交流思想",
+                    "link": "https://tieba.baidu.com/",
+                    "icon": "tieba.baidu.com.png"
+                },
+                "豆瓣": {
+                    "describtion": "提供图书、电影、音乐、生活等方面的推荐、评论和价格比较的社区平台",
+                    "link": "https://www.douban.com/",
+                    "icon": "www.douban.com.png"
+                }
             }
         },
-        "网盘搜索": {
-            "小纸条": {
-                "describtion": "很干净的阿里云盘资源站，资源较多",
-                "link": "https://ali.gitcafe.ink",
-                "icon": "ali.gitcafe.ink.png"
+        "影视资源": {
+            "在线影视": {
+                "剧圈圈": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建源",
+                    "link": "https://link3.cc/jqqzx",
+                    "icon": "jqq.png"
+                },
+                "耐看点播": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                    "link": "https://nkvlog.us",
+                    "icon": "nkdb.png"
+                },
+                "厂长资源": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                    "link": "https://www.czzy.site",
+                    "icon": "czzy.png"
+                },
+                "哔嘀影视": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                    "link": "https://www.bdys.me",
+                    "icon": "bdys.png"
+                },
+                "注视影视": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
+                    "link": "https://gaze.run",
+                    "icon": "gaze.run.png"
+                },
+                "LIBVIO": {
+                    "describtion": "在线影视网站，国外资源为主少量国内资源，大部分可在线，小部分是网盘链接，清晰度很高，自建线路",
+                    "link": "https://iioo.me",
+                    "icon": "iioo.me.png"
+                },
+                "低端影视": {
+                    "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
+                    "link": "https://ddys.info",
+                    "icon": "ddys.info.png"
+                },
+                "NO视频": {
+                    "describtion": "在线影视网站，只有国外资源，清晰度很高，自建线路",
+                    "link": "https://www.novipnoad.net",
+                    "icon": "www.novipnoad.net.png"
+                },
+                "HDmoli": {
+                    "describtion": "在线影视网站，只有国外资源，清晰度很高，线路应该是低端影视的",
+                    "link": "https://www.hdmoli.com",
+                    "icon": "www.hdmoli.com.png"
+                }
             },
-            "小云搜索": {
-                "describtion": "多种网盘资源聚合搜索站，资源数量较多",
-                "link": "https://www.yunso.net",
-                "icon": "www.yunso.net.png"
+            "娱乐直播": {
+                "虎牙直播": {
+                    "describtion": "专注于游戏直播的弹幕式互动直播平台",
+                    "link": "https://www.huya.com",
+                    "icon": "www.huya.com.png"
+                },
+                "斗鱼直播": {
+                    "describtion": "提供高清、快捷、流畅的视频直播和游戏赛事直播服务的平台",
+                    "link": "https://www.douyu.com",
+                    "icon": "www.douyu.com.png"
+                },
+                "抖音直播": {
+                    "describtion": "提供热门网络游戏、棋牌游戏、单机游戏等直播内容",
+                    "link": "https://live.douyin.com",
+                    "icon": "live.douyin.com.png"
+                },
+                "哔哩哔哩直播": {
+                    "describtion": "在这里看见最年轻的生活方式，学习、游戏、电竞、宅舞、唱见、绘画、美食等等应有尽有",
+                    "link": "https://live.bilibili.com",
+                    "icon": "live.bilibili.com.png"
+                }
             },
-            "猫狸盘搜": {
-                "describtion": "多种网盘资源搜索站，资源数量还可以",
-                "link": "https://www.alipansou.com",
-                "icon": "www.alipansou.com.png"
+            "电视直播": {
+                "央视直播": {
+                    "describtion": "提供CCTV在线直播及中央电视台节目表预告等服务",
+                    "link": "https://tv.cctv.com/live/",
+                    "icon": "tv.cctv.com.png"
+                },
+                "央视频电视直播": {
+                    "describtion": "中国中央电视台旗下的视频平台，提供新闻、体育、娱乐、文化等多种内容",
+                    "link": "https://www.yangshipin.cn/tv/home",
+                    "icon": "www.yangshipin.cn.png"
+                }
+            }
+        },
+        "资源搜索": {
+            "网盘搜索": {
+                "小纸条": {
+                    "describtion": "很干净的阿里云盘资源站，资源较多",
+                    "link": "https://ali.gitcafe.ink",
+                    "icon": "ali.gitcafe.ink.png"
+                },
+                "小云搜索": {
+                    "describtion": "多种网盘资源聚合搜索站，资源数量较多",
+                    "link": "https://www.yunso.net",
+                    "icon": "www.yunso.net.png"
+                },
+                "猫狸盘搜": {
+                    "describtion": "多种网盘资源搜索站，资源数量还可以",
+                    "link": "https://www.alipansou.com",
+                    "icon": "www.alipansou.com.png"
+                }
             }
         },
         "高清壁纸": {
-            "极简壁纸": {
-                "describtion": "高清，资源较多，国内网站",
-                "link": "https://bz.zzzmh.cn",
-                "icon": "bz.zzzmh.cn.png"
-            },
-            "花瓣网": {
-                "describtion": "用户分享图片的网站，海量资源，设计素材、壁纸都有，国内网站",
-                "link": "https://huaban.com",
-                "icon": "huaban.com.png"
-            },
-            "堆糖": {
-                "describtion": "用户分享图片的网站，海量资源，壁纸类型大多是可爱类型，偏女性化，国内网站",
-                "link": "https://www.duitang.com",
-                "icon": "www.duitang.com.png"
-            },
-            "10Wallpaper": {
-                "describtion": "高清，海量资源，国外网站，可选中文页面",
-                "link": "https://10wallpaper.com/cn/",
-                "icon": "10wallpaper.com.png"
-            },
-            "AlphaCoders": {
-                "describtion": "高清，资源数量很多，国外网站",
-                "link": "https://alphacoders.com",
-                "icon": "alphacoders.com.png"
-            },
-            "Unsplash": {
-                "describtion": "无版权，可商用，高清，摄影图片为主，海量资源，国外网站",
-                "link": "https://unsplash.com",
-                "icon": "unsplash.com.png"
+            "高清壁纸": {
+                "暖糖": {
+                    "describtion": "高清，资源较多，国内网站",
+                    "link": "https://www.nuantang.net",
+                    "icon": "www.nuantang.net.png"
+                },
+                "极简壁纸": {
+                    "describtion": "高清，资源较多，国内网站",
+                    "link": "https://bz.zzzmh.cn",
+                    "icon": "bz.zzzmh.cn.png"
+                },
+                "花瓣网": {
+                    "describtion": "用户分享图片的网站，海量资源，设计素材、壁纸都有，国内网站",
+                    "link": "https://huaban.com",
+                    "icon": "huaban.com.png"
+                },
+                "堆糖": {
+                    "describtion": "用户分享图片的网站，海量资源，壁纸类型大多是可爱类型，偏女性化，国内网站",
+                    "link": "https://www.duitang.com",
+                    "icon": "www.duitang.com.png"
+                },
+                "10Wallpaper": {
+                    "describtion": "高清，海量资源，国外网站，可选中文页面",
+                    "link": "https://10wallpaper.com/cn/",
+                    "icon": "10wallpaper.com.png"
+                },
+                "WallHere": {
+                    "describtion": "高清，海量资源，国外网站，可选中文页面",
+                    "link": "https://wallhere.com",
+                    "icon": "wallhere.com.png"
+                },
+                "AlphaCoders": {
+                    "describtion": "高清，资源数量很多，国外网站",
+                    "link": "https://alphacoders.com",
+                    "icon": "alphacoders.com.png"
+                },
+                "Unsplash": {
+                    "describtion": "无版权，可商用，高清，摄影图片为主，海量资源，国外网站",
+                    "link": "https://unsplash.com",
+                    "icon": "unsplash.com.png"
+                }
             }
         },
         "破解软件": {
-            "果核剥壳": {
-                "describtion": "绿色软件分享站，免费好用，内容经常更新",
-                "link": "https://www.ghxi.com",
-                "icon": "www.ghxi.com.png"
-            },
-            "异星软件空间": {
-                "describtion": "绿色软件分享站，免费好用，内容经常更新",
-                "link": "https://www.yxssp.com/",
-                "icon": "www.yxssp.com.png"
-            },
-            "蓝鲨应用库": {
-                "describtion": "绿色软件分享站，免费好用，内容经常更新",
-                "link": "https://www.lsapk.com/",
-                "icon": "www.lsapk.com.png"
-            },
-            "绿软部落": {
-                "describtion": "绿色软件分享站，免费好用，内容经常更新",
-                "link": "https://www.ludown.com",
-                "icon": "www.ludown.com.png"
-            },
-            "423Down": {
-                "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
-                "link": "https://www.423xz.com",
-                "icon": "www.423xz.com.png"
-            },
-            "小刀娱乐网": {
-                "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
-                "link": "https://xd.x6d.com",
-                "icon": "xd.x6d.com.png"
-            },
-            "小众软件": {
-                "describtion": "绿色软件分享站，免费好用，内容经常更新",
-                "link": "https://www.appinn.com",
-                "icon": "www.appinn.com.png"
-            },
-            "系统迷": {
-                "describtion": "绿色软件分享站，包含教程和资讯，内容经常更新",
-                "link": "https://www.xitmi.com",
-                "icon": "www.xitmi.com.png"
-            },
-            "分享迷": {
-                "describtion": "绿色软件分享站，电视电脑软件都有，内容经常更新",
-                "link": "https://www.fenxm.com",
-                "icon": "www.fenxm.com.png"
-            },
-            "吾爱破解": {
-                "describtion": "技术交流论坛，有很多人发布绿色好用软件",
-                "link": "https://www.52pojie.cn",
-                "icon": "www.52pojie.cn.png"
+            "破解软件": {
+                "果核剥壳": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.ghxi.com",
+                    "icon": "www.ghxi.com.png"
+                },
+                "异星软件空间": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.yxssp.com/",
+                    "icon": "www.yxssp.com.png"
+                },
+                "蓝鲨应用库": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.lsapk.com/",
+                    "icon": "www.lsapk.com.png"
+                },
+                "绿软部落": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.ludown.com",
+                    "icon": "www.ludown.com.png"
+                },
+                "423Down": {
+                    "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
+                    "link": "https://www.423xz.com",
+                    "icon": "www.423xz.com.png"
+                },
+                "小刀娱乐网": {
+                    "describtion": "绿色软件分享站，包含游戏和教程，内容经常更新",
+                    "link": "https://xd.x6d.com",
+                    "icon": "xd.x6d.com.png"
+                },
+                "小众软件": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.appinn.com",
+                    "icon": "www.appinn.com.png"
+                },
+                "MEFCL": {
+                    "describtion": "绿色软件分享站，免费好用，内容经常更新",
+                    "link": "https://www.mefcl.com",
+                    "icon": "www.mefcl.com.png"
+                },
+                "系统迷": {
+                    "describtion": "绿色软件分享站，包含教程和资讯，内容经常更新",
+                    "link": "https://www.xitmi.com",
+                    "icon": "www.xitmi.com.png"
+                },
+                "分享迷": {
+                    "describtion": "绿色软件分享站，电视电脑软件都有，内容经常更新",
+                    "link": "https://www.fenxm.com",
+                    "icon": "www.fenxm.com.png"
+                },
+                "吾爱破解": {
+                    "describtion": "技术交流论坛，有很多人发布绿色好用软件",
+                    "link": "https://www.52pojie.cn",
+                    "icon": "www.52pojie.cn.png"
+                }
             }
         },
         "自制工具": {
-            "Rim红警2助手": {
-                "describtion": "RimZone自制红警2工具，可一键解决红警几乎所有常见问题",
-                "link": "/rim/rimra2assistant",
-                "icon": "rimra2assistant.png"
-            },
-            "Rim图片压缩": {
-                "describtion": "RimZone自制工具，可以压缩图片到指定kb值或尺寸值",
-                "link": "/rim/imagecompressiontool",
-                "icon": "imagecompressiontool.png"
-            },
-            "Rim关键词查找器": {
-                "describtion": "RimZone自制工具，可以在段落中同时搜索多个关键词",
-                "link": "/rim/keywordsearchtool",
-                "icon": "keywordsearchtool.png"
+            "自制工具": {
+                "Rim红警2助手": {
+                    "describtion": "RimZone自制红警2工具，可一键解决红警几乎所有常见问题",
+                    "link": "/rim/rimra2assistant",
+                    "icon": "rimra2assistant.png"
+                },
+                "Rim图片压缩": {
+                    "describtion": "RimZone自制工具，可以压缩图片到指定kb值或尺寸值",
+                    "link": "/rim/imagecompressiontool",
+                    "icon": "imagecompressiontool.png"
+                },
+                "Rim关键词查找器": {
+                    "describtion": "RimZone自制工具，可以在段落中同时搜索多个关键词",
+                    "link": "/rim/keywordsearchtool",
+                    "icon": "keywordsearchtool.png"
+                }
             }
         },
         "免费音乐": {
-            "MusicFree": {
-                "describtion": "跨平台开源、免费、可定制化的本地音乐播放器",
-                "link": "/rim/musicfreepage",
-                "icon": "musicfree.png"
-            },
-            "落雪音乐": {
-                "describtion": "跨平台开源、免费的音乐播放器、音乐查找工具",
-                "link": "/rim/lxmusicpage",
-                "icon": "lxmusic.png"
-            },
-            "岸听": {
-                "describtion": "卡音旗下的音乐下载App，包含QQ和网易接口",
-                "link": "https://url90.ctfile.com/d/3688390-61931803-a03977?p=9527",
-                "icon": "anting.png"
-            },
-            "聆听音乐": {
-                "describtion": "多个接口的音乐下载App",
-                "link": "https://url90.ctfile.com/d/3688390-61931815-c301fc?p=9527",
-                "icon": "listenmusic.png"
-            },
-            "柠乐": {
-                "describtion": "多个接口的音乐下载App",
-                "link": "https://url90.ctfile.com/d/3688390-61931809-4db2a4?p=9527",
-                "icon": "ningyue.png"
-            }
-        },
-        "磁力搜索": {
-            "未添加": {
-                "describtion": "444是个什sssad么网站啊实打实多阿萨德",
-                "link": "default",
-                "icon": ""
+            "免费音乐": {
+                "MusicFree": {
+                    "describtion": "跨平台开源、免费、可定制化的本地音乐播放器",
+                    "link": "/rim/musicfreepage",
+                    "icon": "musicfree.png"
+                },
+                "落雪音乐": {
+                    "describtion": "跨平台开源、免费的音乐播放器、音乐查找工具",
+                    "link": "/rim/lxmusicpage",
+                    "icon": "lxmusic.png"
+                },
+                "岸听": {
+                    "describtion": "卡音旗下的音乐下载App，包含QQ和网易接口",
+                    "link": "https://url90.ctfile.com/d/3688390-61931803-a03977?p=9527",
+                    "icon": "anting.png"
+                },
+                "聆听音乐": {
+                    "describtion": "多个接口的音乐下载App",
+                    "link": "https://url90.ctfile.com/d/3688390-61931815-c301fc?p=9527",
+                    "icon": "listenmusic.png"
+                },
+                "柠乐": {
+                    "describtion": "多个接口的音乐下载App",
+                    "link": "https://url90.ctfile.com/d/3688390-61931809-4db2a4?p=9527",
+                    "icon": "ningyue.png"
+                }
             }
         }
     },
     "exception": {
-        "剧圈圈": "https://www.jqqzx.cc",
-        "耐看点播": "https://nkvod.com",
-        "厂长资源": "https://www.czys.top",
-        "哔嘀影视": "https://www.yjys01.com",
-        "注视影视": "https://gaze.run",
-        "LIBVIO": "https://www.libvio.cc",
-        "低端影视": "https://ddys.mov",
-        "NO视频": "https://www.novipnoad.net",
-        "HDmoli": "https://www.hdmoli.pro"
     }
 }

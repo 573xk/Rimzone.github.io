@@ -1,6 +1,5 @@
 {
     "button": {
-        "Rim自制": "/rim",
         "矢量图库": "https://www.iconfont.cn/",
         "OPPO开放平台": "https://open.oppomobile.com/theme/index/#/theme/data/statistics",
         "百度贴吧": "https://tieba.baidu.com/",
@@ -10,32 +9,34 @@
     "tab": {
         "搜索": {
             "必应": "https://cn.bing.com/search?q=",
-            "秘塔AI": "https://metaso.cn/?q=",
-            "360AI": "https://so.360.com/search?q=",
             "百度": "https://www.baidu.com/s?wd=",
+            "搜狗": "https://www.sogou.com/web?query=",
+            "秘塔AI": "https://metaso.cn/?q=",
+            "纳米AI": "https://so.360.com/search?q=",
             "知乎": "https://www.zhihu.com/search?type=content&q=",
             "豆瓣": "https://www.douban.com/search?q="
         },
         "视频": {
             "哔哩哔哩": "https://search.bilibili.com/video?keyword=",
-            "虎牙": "https://www.huya.com/search?hsk=",
-            "斗鱼": "https://www.douyu.com/search?kw=",
             "抖音": "https://www.douyin.com/search/"
-        },
-        "音乐试听": {
-            "哔哩哔哩音乐": "https://search.bilibili.com/all?keyword=|||&tids=3",
-            "TuneFree": "https://pt.sayqz.com/?ref=yinghe.xyz#/search/songs?keywords=",
-            "歌曲宝": "https://www.gequbao.com/s/"
         },
         "翻译": {
             "金山词霸": "https://www.iciba.com/word?w=",
             "微软翻译": "https://cn.bing.com/translator?ref=TThis&text=|||&from=zh-Hans&to=en"
         },
+        "PC软件商店": {
+            "联想应用商店": "https://lestore.lenovo.com/search?k=",
+            "腾讯软件中心": "https://pc.qq.com/search.html#!keyword="
+        },
         "百科": {
             "百度百科": "https://baike.baidu.com/item/"
         },
+        "音乐试听": {
+            "哔哩哔哩音乐": "https://search.bilibili.com/all?keyword=|||&tids=3",
+            "歌曲宝": "https://www.gequbao.com/s/"
+        },
         "影视下载": {
-            "不太灵": "https://www.7bt0.com/search.php?sb=",
+            "不太灵": "https://www.7bt0.com/search?sb=",
             "音范丝": "https://www.yinfans.me/?s=",
             "电影港": "https://cn.bing.com/search?q=||| site:www.dygangs.net",
             "片源网": "https://www.z2pyw.com/search/"
@@ -63,6 +64,21 @@
                     "link": "https://tieba.baidu.com/",
                     "icon": "tieba.baidu.com.png"
                 },
+                "Github": {
+                    "describtion": "一个面向开源及私有软件项目的托管平台",
+                    "link": "https://github.com/",
+                    "icon": "github.com.png"
+                },
+                "GitHub Proxy": {
+                    "describtion": "GitHub文件代理加速",
+                    "link": "https://gh.llkk.cc/",
+                    "icon": "gh.llkk.cc.png"
+                },
+                "Crx搜搜": {
+                    "describtion": "一个牛X的扩展和应用商店",
+                    "link": "https://www.crxsoso.com/",
+                    "icon": "www.crxsoso.com.png"
+                },
                 "豆瓣": {
                     "describtion": "提供图书、电影、音乐、生活等方面的推荐、评论和价格比较的社区平台",
                     "link": "https://www.douban.com/",
@@ -70,12 +86,22 @@
                 }
             }
         },
-        "影视资源": {
+        "影视直播": {
             "在线影视": {
                 "剧圈圈": {
                     "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建源",
                     "link": "https://link3.cc/jqqzx",
                     "icon": "jqq.png"
+                },
+                "流光影院": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度较高，单线路",
+                    "link": "https://www.gyf.lol/",
+                    "icon": "www.gyf.lol.png"
+                },
+                "电影驿站": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，多线路",
+                    "link": "https://dyyz.pw/",
+                    "icon": "dyyz.pw.png"
                 },
                 "耐看点播": {
                     "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
@@ -87,10 +113,10 @@
                     "link": "https://www.czzy.site",
                     "icon": "czzy.png"
                 },
-                "哔嘀影视": {
-                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
-                    "link": "https://www.bdys.me",
-                    "icon": "bdys.png"
+                "修罗影视": {
+                    "describtion": "在线影视网站，国内外资源都有，清晰度还可以",
+                    "link": "xlys.me",
+                    "icon": "xlys.me.png"
                 },
                 "注视影视": {
                     "describtion": "在线影视网站，国内外资源都有，清晰度还可以，有自建线路",
@@ -155,10 +181,50 @@
         },
         "资源搜索": {
             "网盘搜索": {
-                "小纸条": {
-                    "describtion": "很干净的阿里云盘资源站，资源较多",
-                    "link": "https://ali.gitcafe.ink",
-                    "icon": "ali.gitcafe.ink.png"
+                "资源铺": {
+                    "describtion": "搜索引擎，包含多种网盘资源",
+                    "link": "https://zypuu.com/",
+                    "icon": "zypuu.com.png"
+                },
+                "橘子盘搜": {
+                    "describtion": "搜索引擎，包含多种网盘资源",
+                    "link": "https://www.nmme.one/",
+                    "icon": "www.nmme.one.png"
+                },
+                "齐乐搜": {
+                    "describtion": "夸克和阿里云盘资源分享站",
+                    "link": "https://www.qileso.com/",
+                    "icon": "www.qileso.com.png"
+                },
+                "海绵小站": {
+                    "describtion": "天翼云盘资源分享站",
+                    "link": "https://kkapik.eu.org/",
+                    "icon": "kkapik.eu.org.png"
+                },
+                "雷鲸小站": {
+                    "describtion": "天翼云盘资源分享站",
+                    "link": "https://www.leijing.xyz/",
+                    "icon": "www.leijing.xyz.png"
+                },
+                "我的小站": {
+                    "describtion": "多种网盘资源分享站",
+                    "link": "https://pan666.net/",
+                    "icon": "pan666.net.png"
+                },
+                "兄弟盘": {
+                    "describtion": "搜索引擎，包含多种网盘资源",
+                    "link": "https://www.xiongdipan.com/",
+                    "icon": "www.xiongdipan.com.png"
+                },
+                "懒盘搜索": {
+                    "describtion": "搜索引擎，包含多种网盘资源",
+                    "link": "https://www.lzpanx.com/",
+                    "icon": "www.lzpanx.com.png"
+                },
+                "秒搜": {
+                    "describtion": "搜索引擎，包含多种网盘资源",
+                    "link": "https://miaosou.fun/",
+                    "icon": "miaosou.fun.png"
                 },
                 "小云搜索": {
                     "describtion": "多种网盘资源聚合搜索站，资源数量较多",
@@ -169,6 +235,18 @@
                     "describtion": "多种网盘资源搜索站，资源数量还可以",
                     "link": "https://www.alipansou.com",
                     "icon": "www.alipansou.com.png"
+                }
+            },
+            "BT磁力": {
+                "无极磁力": {
+                    "describtion": "种子分享平台、磁链搜索引擎",
+                    "link": "https://cili.urls.mom/",
+                    "icon": "cili.urls.mom.png"
+                },
+                "SkrBT": {
+                    "describtion": "专业的种子搜索、磁力链接搜索引擎",
+                    "link": "https://skrbtdzh.top/",
+                    "icon": "skrbtdzh.top.png"
                 }
             }
         },
@@ -279,17 +357,17 @@
             "自制工具": {
                 "Rim红警2助手": {
                     "describtion": "RimZone自制红警2工具，可一键解决红警几乎所有常见问题",
-                    "link": "/rim/rimra2assistant",
+                    "link": "/rimra2assistant",
                     "icon": "rimra2assistant.png"
                 },
                 "Rim图片压缩": {
                     "describtion": "RimZone自制工具，可以压缩图片到指定kb值或尺寸值",
-                    "link": "/rim/imagecompressiontool",
+                    "link": "/imagecompressiontool",
                     "icon": "imagecompressiontool.png"
                 },
                 "Rim关键词查找器": {
                     "describtion": "RimZone自制工具，可以在段落中同时搜索多个关键词",
-                    "link": "/rim/keywordsearchtool",
+                    "link": "/keywordsearchtool",
                     "icon": "keywordsearchtool.png"
                 }
             }
@@ -298,12 +376,12 @@
             "免费音乐": {
                 "MusicFree": {
                     "describtion": "跨平台开源、免费、可定制化的本地音乐播放器",
-                    "link": "/rim/musicfreepage",
+                    "link": "/musicfreepage",
                     "icon": "musicfree.png"
                 },
                 "落雪音乐": {
                     "describtion": "跨平台开源、免费的音乐播放器、音乐查找工具",
-                    "link": "/rim/lxmusicpage",
+                    "link": "/lxmusicpage",
                     "icon": "lxmusic.png"
                 },
                 "岸听": {
@@ -324,6 +402,5 @@
             }
         }
     },
-    "exception": {
-    }
+    "exception": {}
 }
